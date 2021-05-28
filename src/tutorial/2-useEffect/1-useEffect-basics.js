@@ -6,7 +6,7 @@ const UseEffectBasics = () => {
     if(value > 0 ) {
       document.title = `New Message (${value})`
     }
-  })
+  },[value])
   return (
       <>
         <h2>{ value }</h2>

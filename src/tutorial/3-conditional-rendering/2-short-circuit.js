@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const ShortCircuit = () => {
   const [text, setText] = useState('')
+  const [login, setLogin] = useState(false)
    const firstValue = text || 'hello world';
    const secondValue = text && 'hello world';
 
@@ -13,6 +14,13 @@ const ShortCircuit = () => {
         <h3>{text || 'Sharif'}</h3>
         <h3>{text && 'Ahmed'}</h3>
         <h3>{!text && 'Ahmed'}</h3>
+         <h2>Ternary operator</h2>
+          <h3>
+              {
+                login ? 'Logged in' : 'Join now'
+              }
+          </h3>
+          <button className='btn' onClick={() => setLogin(!login)}>{login ? 'Logout' : 'Login'}</button>
       </>
   );
 };

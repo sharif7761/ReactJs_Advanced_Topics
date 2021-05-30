@@ -9,6 +9,7 @@ import FetchData from './tutorial/2-useEffect/3-useEffect-fetch-data'
 import MultipleReturns from './tutorial/3-conditional-rendering/1-multiple-returns'
 import ShortCircuit from './tutorial/3-conditional-rendering/2-short-circuit'
 import ShowHide from "./tutorial/3-conditional-rendering/3-show-hide";
+import ControlledInputs from "./tutorial/4-forms/1-controlled-inputs";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
         <ShortCircuit />
         <hr/><br/>
         <ShowHide />
+        <h1>Form</h1><hr/><br/>
+        <h2>Controlled Inputs</h2><hr/><br/>
+        <ControlledInputs />
 
     </div>
   )

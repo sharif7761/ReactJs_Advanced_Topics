@@ -8,6 +8,7 @@ import CleanUpEffect from './tutorial/2-useEffect/2-useEffect-cleanup'
 import FetchData from './tutorial/2-useEffect/3-useEffect-fetch-data'
 import MultipleReturns from './tutorial/3-conditional-rendering/1-multiple-returns'
 import ShortCircuit from './tutorial/3-conditional-rendering/2-short-circuit'
+import ShowHide from "./tutorial/3-conditional-rendering/3-show-hide";
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
         <MultipleReturns />
         <hr/><br/>
         <ShortCircuit />
+        <hr/><br/>
+        <ShowHide />
 
     </div>
   )
